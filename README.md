@@ -65,7 +65,7 @@ Here’s the cleaned-up and properly formatted README file:
    ```plaintext
    # PostgreSQL Database
    DATABASE_URL
-
+   DIRECT_DATABSE_URL
    # Cloudflare R2
    R2_BUCKET_NAME
    R2_ENDPOINT
@@ -108,7 +108,8 @@ Here’s the cleaned-up and properly formatted README file:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+See the [LICENSE](LICENSE) file for more details.
 
 ---
 
