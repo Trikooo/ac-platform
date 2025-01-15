@@ -1,33 +1,31 @@
-Here’s the cleaned-up and properly formatted README file:
-
----
-
 # Customer Experience / Administration Console Platform
 
 ## Features
 
-- **User Authentication**: Secure login and registration for users.  
-- **Role-Based Access**: Admins can manage products and orders efficiently.  
-- **Product Management**: Admins can create, update, and delete products.  
-- **Shopping Cart**: Users can add, remove, and update products in their cart.  
-- **Responsive Design**: Optimized for both desktop and mobile devices.  
-- **Integrated Order Management**: Admins can manage their orders in one place.  
+- **User Authentication**: Secure login and registration for users.
+- **Role-Based Access**: Admins can manage products and orders efficiently.
+- **Product Management**: Admins can create, update, and delete products.
+- **Shopping Cart**: Users can add, remove, and update products in their cart.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Integrated Order Management**: Admins can manage their orders in one place.
 
 ## Tech Stack
 
-- **Frontend**:  
-  - React  
-  - TypeScript  
-  - Tailwind CSS  
-  - Shadcn  
+- **Frontend**:
 
-- **Backend**:  
-  - Next.js  
-  - Prisma  
-  - PostgreSQL  
+  - React
+  - TypeScript
+  - Tailwind CSS
+  - Shadcn
 
-- **Authentication**:  
-  - NextAuth.js  
+- **Backend**:
+
+  - Next.js
+  - Prisma
+  - PostgreSQL
+
+- **Authentication**:
+  - NextAuth.js
 
 ## Getting Started
 
