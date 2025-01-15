@@ -57,13 +57,20 @@
    bun install
    ```
 
-4. **Set up your PostgreSQL database**:  
-   Update the environment variables in the `.env` file with your configuration:
+4. **Set up your PostgreSQL database**:
+
+   First, enable the pg_trgm extension by connecting to your database and running:
+
+   ```sql
+   CREATE EXTENSION IF NOT EXISTS pg_trgm;
+   ```
+
+   Then update the environment variables in the `.env` file with your configuration:
 
    ```plaintext
    # PostgreSQL Database
    DATABASE_URL
-   DIRECT_DATABSE_URL
+   DIRECT_DATABASE_URL
    # Cloudflare R2
    R2_BUCKET_NAME
    R2_ENDPOINT

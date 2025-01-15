@@ -11,8 +11,8 @@ generator client {
 
 datasource db {
   provider  = "postgresql"
-  url       = env("NEON_POSTGRES_URL") // uses connection pooling
-  directUrl = env("NEON_DIRECT_URL") // uses a direct connection
+  url       = env("DATABASE_URL") // uses connection pooling
+  directUrl = env("DIRECT_DATABASE_URL") // uses a direct connection
 }
 
 // ------------------------------
